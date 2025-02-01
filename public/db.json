@@ -1,0 +1,516 @@
+{
+  "users": [
+    {
+      "id": "1731817388656",
+      "idCard": "30782050",
+      "name": "Yoangel",
+      "lastName": "Godoy",
+      "phone": "04147287332",
+      "email": "yoangelagodoych201104@gmail.com",
+      "password": "123",
+      "rol_id": "1",
+      "updated_at": "2024-11-17T04:24:01.584Z"
+    },
+    {
+      "id": "1737389186077",
+      "idCard": "30651748",
+      "name": "Aaron",
+      "lastName": "godoy",
+      "phone": "123123",
+      "email": "Wyoangt@hotmail.com",
+      "password": "1234",
+      "rol_id": "2",
+      "updated_at": "2025-01-20T17:10:46.301Z"
+    },
+    {
+      "id": "1737394731183",
+      "idCard": "14605801",
+      "name": "Yoan",
+      "lastName": "Godoy",
+      "phone": "04147186769",
+      "email": "Wyoangt@hotmail.com",
+      "password": "1234",
+      "rol_id": "1",
+      "updated_at": "2025-01-20T17:39:08.990Z"
+    },
+    {
+      "id": "04bb",
+      "idCard": "30782050",
+      "name": "Yoangel",
+      "lastName": "Chacon",
+      "phone": "04147287332",
+      "email": "jpiiyoangelgodoy@gmail.com",
+      "password": "1234",
+      "rol_id": "1"
+    }
+  ],
+  "rol_user": [
+    {
+      "id_rol": "1",
+      "name_rol": "Admin",
+      "descripcion": "Administrator role",
+      "id": "d96c"
+    },
+    {
+      "id_rol": "2",
+      "name_rol": "employee",
+      "descripcion": "employee role",
+      "id": "a230"
+    },
+    {
+      "id_rol": "3",
+      "name_rol": "citizen",
+      "descripcion": "citizen role",
+      "id": "0c62"
+    }
+  ],
+  "loggedInUsers": [
+    {
+      "id": "1737389186077",
+      "idCard": "30651748",
+      "name": "Aaron",
+      "lastName": "godoy",
+      "phone": "123123",
+      "email": "Wyoangt@hotmail.com",
+      "password": "1234",
+      "rol_id": "2",
+      "updated_at": "2025-01-20T17:10:46.301Z"
+    },
+    {
+      "id": "1731817388656",
+      "idCard": "30782050",
+      "name": "Yoangel",
+      "lastName": "Godoy",
+      "phone": "04147287332",
+      "email": "yoangelagodoych201104@gmail.com",
+      "password": "123",
+      "rol_id": "1",
+      "updated_at": "2024-11-17T04:24:01.584Z"
+    }
+  ],
+  "nationalities": [
+    {
+      "id": "1",
+      "name": "Venezuela"
+    },
+    {
+      "id": "2",
+      "name": "Colombia"
+    },
+    {
+      "id": "3",
+      "name": "Ecuador"
+    }
+  ],
+  "state": [
+    {
+      "id_state": "1",
+      "name": "Amazonas",
+      "id": "8396"
+    },
+    {
+      "id_state": "2",
+      "name": "Anzoátegui",
+      "id": "b577"
+    },
+    {
+      "id_state": "3",
+      "name": "Apure",
+      "id": "ab49"
+    },
+    {
+      "id_state": "4",
+      "name": "Aragua",
+      "id": "cf0c"
+    },
+    {
+      "id_state": "5",
+      "name": "Barinas",
+      "id": "695e"
+    },
+    {
+      "id_state": "6",
+      "name": "Bolívar",
+      "id": "9830"
+    },
+    {
+      "id_state": "7",
+      "name": "Carabobo",
+      "id": "469e"
+    },
+    {
+      "id_state": "8",
+      "name": "Cojedes",
+      "id": "92f2"
+    },
+    {
+      "id_state": "9",
+      "name": "Delta Amacuro",
+      "id": "92c2"
+    },
+    {
+      "id_state": "10",
+      "name": "Distrito Capital",
+      "id": "caec"
+    },
+    {
+      "id_state": "11",
+      "name": "Falcón",
+      "id": "d594"
+    },
+    {
+      "id_state": "12",
+      "name": "Guárico",
+      "id": "a2f3"
+    },
+    {
+      "id_state": "13",
+      "name": "Lara",
+      "id": "9088"
+    },
+    {
+      "id_state": "14",
+      "name": "Mérida",
+      "id": "202c"
+    },
+    {
+      "id_state": "15",
+      "name": "Miranda",
+      "id": "b0e3"
+    },
+    {
+      "id_state": "16",
+      "name": "Monagas",
+      "id": "1fef"
+    },
+    {
+      "id_state": "17",
+      "name": "Nueva Esparta",
+      "id": "46da"
+    },
+    {
+      "id_state": "18",
+      "name": "Portuguesa",
+      "id": "da94"
+    },
+    {
+      "id_state": "19",
+      "name": "Sucre",
+      "id": "728b"
+    },
+    {
+      "id_state": "20",
+      "name": "Táchira",
+      "id": "f32a"
+    },
+    {
+      "id_state": "21",
+      "name": "Trujillo",
+      "id": "9dad"
+    },
+    {
+      "id_state": "22",
+      "name": "La Guaira",
+      "id": "a03c"
+    },
+    {
+      "id_state": "23",
+      "name": "Yaracuy",
+      "id": "b8af"
+    },
+    {
+      "id_state": "24",
+      "name": "Zulia",
+      "id": "0e48"
+    }
+  ],
+  "municipality": [
+    {
+      "id_municipality": "1",
+      "name": "San Cristóbal",
+      "fkid_state": "20",
+      "id": "db33"
+    },
+    {
+      "id_municipality": "2",
+      "name": "Cárdenas",
+      "fkid_state": "20",
+      "id": "b15d"
+    },
+    {
+      "id_municipality": "3",
+      "name": "Guásimos",
+      "fkid_state": "20",
+      "id": "c309"
+    },
+    {
+      "id_municipality": "4",
+      "name": "Independencia",
+      "fkid_state": "20",
+      "id": "0f04"
+    },
+    {
+      "id_municipality": "5",
+      "name": "Jáuregui",
+      "fkid_state": "20",
+      "id": "63bc"
+    },
+    {
+      "id_municipality": "6",
+      "name": "Torbes",
+      "fkid_state": "20",
+      "id": "e552"
+    },
+    {
+      "id_municipality": "7",
+      "name": "Ureña",
+      "fkid_state": "20",
+      "id": "dad0"
+    },
+    {
+      "id_municipality": "8",
+      "name": "Lobatera",
+      "fkid_state": "20",
+      "id": "6624"
+    },
+    {
+      "id_municipality": "9",
+      "name": "Michelena",
+      "fkid_state": "20",
+      "id": "848c"
+    },
+    {
+      "id_municipality": "10",
+      "name": "Junín",
+      "fkid_state": "20",
+      "id": "c020"
+    },
+    {
+      "id_municipality": "11",
+      "name": "Córdoba",
+      "fkid_state": "20",
+      "id": "6576"
+    },
+    {
+      "id_municipality": "12",
+      "name": "Bolívar",
+      "fkid_state": "20",
+      "id": "18c0"
+    },
+    {
+      "id_municipality": "13",
+      "name": "Capacho Nuevo",
+      "fkid_state": "20",
+      "id": "6788"
+    },
+    {
+      "id_municipality": "14",
+      "name": "Capacho Viejo",
+      "fkid_state": "20",
+      "id": "122d"
+    },
+    {
+      "id_municipality": "15",
+      "name": "Ayacucho",
+      "fkid_state": "20",
+      "id": "3399"
+    },
+    {
+      "id_municipality": "16",
+      "name": "Panamericano",
+      "fkid_state": "20",
+      "id": "9b8d"
+    },
+    {
+      "id_municipality": "17",
+      "name": "San Judas Tadeo",
+      "fkid_state": "20",
+      "id": "bcdf"
+    }
+  ],
+  "citizen": [
+    {
+      "id": "1737303660391",
+      "cedula": "30782050",
+      "nombre": "Yoangel",
+      "apellido": "Chacon",
+      "fecha_nacimiento": "2004-11-20",
+      "direccion": "Av. Principal-Panamericana-Michelena ",
+      "telefono": "04147287332",
+      "created_at": "2025-01-19T16:21:00.391Z",
+      "updated_at": "2025-01-19T16:21:22.175Z"
+    },
+    {
+      "id": "1738343458486",
+      "cedula": "30782050",
+      "nombre": "Noelia",
+      "apellido": "Chacon",
+      "fecha_nacimiento": "2025-01-09",
+      "direccion": "michelena",
+      "telefono": "04147187332",
+      "created_at": "2025-01-31T17:10:58.486Z",
+      "updated_at": "2025-01-31T17:10:58.486Z"
+    }
+  ],
+  "prefecture": [
+    {
+      "id": "1",
+      "name": "Prefectura de Michelena",
+      "municipality_id": "8"
+    }
+  ],
+  "parishes": [
+    {
+      "id": "1",
+      "name": "Michelena",
+      "municipality_id": "8"
+    }
+  ],
+  "complaint": [
+    {
+      "id": "1",
+      "user_id": "1731817388656",
+      "description": "denuncia 1"
+    }
+  ],
+  "lifeCertificateRequests": [
+    {
+      "id": "008a",
+      "name": "Yoangel",
+      "lastName": "Godoy",
+      "nationality": "1",
+      "residentialAddress": "hola",
+      "prefecture": "michelena",
+      "requestDate": "2025-01-22T04:21:42.514Z",
+      "status": "Pediente"
+    },
+    {
+      "id": "9ea9",
+      "name": "Aaron",
+      "lastName": "godoy",
+      "nationality": "1",
+      "residentialAddress": "hola",
+      "prefecture": "michelena",
+      "requestDate": "2025-01-22T22:49:42.701Z",
+      "status": "Pediente",
+      "type": "Fe de Vida",
+      "dueDate": "2025-01-24T22:49:42.701Z"
+    }
+  ],
+  "citationRequests": [
+    {
+      "id": "cce9",
+      "prefecture": "1",
+      "name": "Yoangel",
+      "lastName": "Godoy",
+      "residentialAddress": "Uvito",
+      "parish": "1",
+      "status": "Entregado",
+      "requestDate": "2025-01-31T01:04:26.884Z",
+      "dueDate": "2025-02-02T01:04:26.884Z"
+    },
+    {
+      "id": "e9a5",
+      "prefecture": "1",
+      "name": "Yoangel",
+      "lastName": "Godoy",
+      "residentialAddress": "hola",
+      "parish": "1",
+      "status": "Entregado",
+      "requestDate": "2025-01-31T20:37:58.816Z",
+      "dueDate": "2025-02-02T20:37:58.816Z"
+    }
+  ],
+  "permanentSeatCertificates": [
+    {
+      "id": "2654",
+      "prefecture": "1",
+      "parish": "1",
+      "deceasedName": "Yoangel Alejeandro Godoy Chacon",
+      "deceasedId": "30782050",
+      "deathDate": "2025-01-22",
+      "deathCertificateNumber": "20",
+      "residentialAddress": "Uvito",
+      "witness1Id": "1737303660391",
+      "witness2Id": "1738343458486",
+      "status": "Pendiente",
+      "requestDate": "2025-01-31T19:45:45.230Z"
+    }
+  ],
+  "goodbehaviorCertificates": [
+    {
+      "id": "93c5",
+      "prefecture": "1",
+      "parish": "1",
+      "citizenId": "30782050",
+      "citizenName": "Yoangel Alejandro Godoy Chacon",
+      "citizenNationality": "Venezuela",
+      "reason": "estudios",
+      "residentialAddress": "Uvito",
+      "witness1Id": "1737303660391",
+      "witness2Id": "1738343458486",
+      "status": "Pendiente",
+      "requestDate": "2025-01-31T19:45:03.470Z"
+    }
+  ],
+  "brands": [
+    {
+      "id": "1",
+      "name": "Ford"
+    },
+    {
+      "id": "2",
+      "name": "Dodge"
+    },
+    {
+      "id": "3",
+      "name": "Chevrolet"
+    }
+  ],
+  "models": [
+    {
+      "id": "1",
+      "name": "Triton 350",
+      "brands:id": "1"
+    },
+    {
+      "id": "2",
+      "name": "cheyyene 350",
+      "brands:id": "3"
+    },
+    {
+      "id": "1",
+      "name": "Dodge 350",
+      "brands:id": "2"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "1738348797669",
+      "vehicleBrand": "Ford",
+      "vehicleModel": "Triton 350",
+      "vehicleYear": "1982",
+      "vehicleColor": "rojo",
+      "vehicleClass": "camion",
+      "vehiclePlate": "22RTAG",
+      "engineSerial": "asdsa5d1sa651d",
+      "chassisSerial": "asd15sa61dsa2",
+      "created_at": "2025-01-31T18:39:57.669Z",
+      "updated_at": "2025-01-31T18:39:57.669Z"
+    }
+  ],
+  "movingPermits": [
+    {
+      "id": "876f",
+      "userId": "30782050",
+      "userName": "Yoangel",
+      "municipalityDeparture": "Michelena",
+      "arrivalPlace": "michelena ",
+      "vehicleId": "1738348797669",
+      "document": {},
+      "requestDate": "2025-01-31T18:46:31.718Z",
+      "dueDate": "2025-02-02T18:46:31.718Z",
+      "status": "Entregado"
+    }
+  ]
+}
