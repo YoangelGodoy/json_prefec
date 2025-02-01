@@ -1,20 +1,10 @@
-const express = require('express');
-const path = require('path');
-const jsonServer = require('json-server');
-const app = express();
-const PORT = process.env.PORT || 5000;
+const jsonServer = require("json-server");
+const server = jsonServer.create();
+const router = jsonServer.router("db.json");
+const middlewares = jsonServer.defaults();
+const port = process.env.PORT || 3001;
 
-// Servir archivos estáticos
-app.use(express.static(path.join(__dirname, 'build')));
+server.use(middlewares);
+server.use(router);
 
-// Ruta para JSON Server
-app.use('/public', jsonServer.router('db.json'));
-
-// Manejar todas las demás rutas con el archivo HTML de React
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
-
-app.listen(PORT, () => {
-  console.log(`Servidor en el puerto ${PORT}`);
-});
+server.listen(port)
